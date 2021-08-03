@@ -7,6 +7,7 @@
   "author": "",
   "scripts": {
     "build": "parcel build index.html",
+    "build-github": "parcel build index.html --public-url=https://dolgiyspb.github.io/cv/ -d docs",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
